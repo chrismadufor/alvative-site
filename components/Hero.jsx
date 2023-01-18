@@ -3,10 +3,10 @@ import Button from "./common/Button";
 
 function Hero() {
   return (
-    <div className="p-side mt-24 md:mt-32 xl:mt-20 mb-10">
+    <div className="p-side mt-24 md:mt-32 xl:mt-48 mb-10">
       <div className="grid grid-cols-1 xl:grid-cols-2 items-center">
         <div>
-          <h1 className="text-3xl md:text-5xl xl:text-6xl font-semibold leading-normal md:leading-normal heading-bg tracking-wide">Get Smart Technical Talents to <div className="text-center inline relative">Accelerate <img className="fancy-line" src="/assets/line.svg" alt="" /></div> your Growth</h1>
+          <h1 className="hero-text text-3xl md:text-5xl xl:text-6xl font-semibold heading-bg tracking-wide">Get Smart Technical Talents to <div className="text-center inline relative">Accelerate <img className="fancy-line" src="/assets/line.svg" alt="" /></div> your Growth</h1>
         </div>
         <div className="mt-5 md:mt-10 xl:mt-0 xl:max-w-sm xl:justify-self-center">
           <p className="md:leading-10 md:text-lg">

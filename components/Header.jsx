@@ -3,7 +3,7 @@ import Button from "./common/Button";
 import Link from "next/link";
 
 function Header() {
-  const [showNav, setShowNav] = useState(true)
+  const [showNav, setShowNav] = useState(false)
   return (
     <div>
       <header className="z-show fixed top-0 w-full bg-white p-side h-20 md:h-24 flex items-center justify-between border-b">

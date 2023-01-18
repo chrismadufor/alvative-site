@@ -19,6 +19,10 @@ h1 {
   font-weight: 400 !important;
 }
 
+.hero-text {
+  line-height: 1.5 !important;
+}
+
 .close-nav {
   transform: translateY(-120%);
   transition: transform 0.5s linear;
@@ -85,6 +89,7 @@ li, ul, ol {
 /* Swiper */
 .swiper {
   position: static !important;
+  height: 500px;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -134,5 +139,9 @@ li, ul, ol {
 
   .fancy-line {
     bottom: -10px;
+  }
+
+  .swiper {
+    height: unset;
   }
 }
