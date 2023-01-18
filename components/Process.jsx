@@ -41,7 +41,7 @@ function Process() {
       <div className="p-side">
         <div className="py-8 md:py-20 grid grid-cols-1 md:grid-cols-2 max-w-6xl mx-auto">
           <div className="flex md:block flex-col items-center py-5 md:border-r-2 border-gray-500 md:pl-8">
-            <h1 className="text-3xl heading-bg font-semibold mb-5">
+            <h1 className="text-xl md:text-3xl heading-bg font-semibold mb-5">
               Are you a developer?
             </h1>
             <p className="text-center md:text-left mb-5 max-w-sm">
@@ -51,7 +51,7 @@ function Process() {
             <Button title={"Apply Here"} color={true} />
           </div>
           <div className="flex md:block flex-col items-center py-5 md:pl-16">
-            <h1 className="text-3xl heading-bg font-semibold mb-5">
+            <h1 className="text-xl md:text-3xl heading-bg font-semibold mb-5">
               Do you train Devs?
             </h1>
             <p className="text-center md:text-left mb-5 max-w-sm">
