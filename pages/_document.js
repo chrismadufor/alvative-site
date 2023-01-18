@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document() {
   return (
@@ -13,7 +14,7 @@ export default function Document() {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         /> */}
-        <script src="https://kit.fontawesome.com/5d105b5d88.js" crossorigin="anonymous"></script>
+        <Script src="https://kit.fontawesome.com/5d105b5d88.js" crossorigin="anonymous"></Script>
       </Head>
       <body>
         <Main />
