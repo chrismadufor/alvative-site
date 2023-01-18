@@ -2,7 +2,7 @@ import React from "react";
 
 function ReviewItem({ message, logo, name, role }) {
   return (
-    <div className=" grid grid-cols-1 lg:grid-cols-2">
+    <div className="h-full grid grid-cols-1 lg:grid-cols-2">
       <div className="light-bg pt-20 pb-10 lg:py-14 relative">
         <div className="absolute top-0 w-full flex justify-center">
           <img className="" src="/assets/quote.svg" alt="" />
